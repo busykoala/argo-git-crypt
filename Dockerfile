@@ -11,4 +11,4 @@ RUN apt-get update \
 RUN mv /usr/bin/git /usr/bin/git.bin
 COPY git /usr/bin/git
 
-USER argocd
+USER 999
